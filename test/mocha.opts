@@ -1,0 +1,2 @@
+--compilers js:./test/support/compiler
+--require react-native-mock/mock
