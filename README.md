@@ -1,7 +1,6 @@
 Step to build the project:
 
-
-1.`npm install -g react-native-cli@latest`
+1. `npm install -g react-native-cli@latest`
 
 
 2. `cd ~/projects`
