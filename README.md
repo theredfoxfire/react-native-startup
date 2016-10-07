@@ -38,6 +38,8 @@ Open terminal, for further information visit this https://facebook.github.io/rea
 12. Don't forget to adjust this line with your app name:
 
 ```
+// file location /android/app/build.gradle
+
 android {
  buildToolsVersion "23.0.1"
 
@@ -49,7 +51,7 @@ android {
 ```
      
 ```
-/android/app/src/main/AndroidManifest.xml
+// file location /android/app/src/main/AndroidManifest.xml
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
  package="com.[change name]">
