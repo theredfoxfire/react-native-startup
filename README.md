@@ -34,6 +34,7 @@ Open terminal, for further information visit this https://facebook.github.io/rea
 
 11. Don't forget to adjust this line with your app name:
 
+
 ```
 // file location /android/app/build.gradle
 
@@ -58,4 +59,4 @@ android {
 package com.[change name];
 ```
 
-12. `react-native run-android`
+12.`react-native run-android`
