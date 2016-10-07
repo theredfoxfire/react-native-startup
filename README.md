@@ -17,7 +17,7 @@ Open terminal, for further information visit this https://facebook.github.io/rea
 5. `git init`
 
 
-6. `git remote add upstream https://bitbucket.org/anggahasibuan/traforia-mobile-app`
+6. `git remote add upstream https://github.com/theredfoxfire/react-native-startup`
 
 
 7. `git fetch upstream`
@@ -33,3 +33,28 @@ Open terminal, for further information visit this https://facebook.github.io/rea
 
 
 11. `react-native run-android`
+
+
+12. Don't forget to adjust this line with your app name:
+
+```
+android {
+ buildToolsVersion "23.0.1"
+
+ defaultConfig {
+     applicationId "com.[change name]"
+     minSdkVersion 16
+     targetSdkVersion 22
+     versionCode 2
+```
+     
+```
+/android/app/src/main/AndroidManifest.xml
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+ package="com.[change name]">
+
+/android/app/src/main/java/com/contactspro/MainActivity.java
+
+package com.[change name];
+```
