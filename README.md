@@ -47,7 +47,15 @@ android {
      targetSdkVersion 22
      versionCode 2
 ```
-     
+
+```
+// file location /android/app/src/main/res/values/strings.xml
+ <resources>
+    <string name="app_name">[change name]</string>
+ </resources>
+
+```
+
 ```
 // file location /android/app/src/main/AndroidManifest.xml
 
