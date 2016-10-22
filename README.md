@@ -8,7 +8,7 @@ Open terminal, for further information visit this https://facebook.github.io/rea
 2. `cd ~/projects assumed we create new projects folder already`
 
 
-3. `react-native init TraforiaApp`
+3. `react-native init YourProject`
 
 
 4. `cd $_`
@@ -67,4 +67,4 @@ android {
 package com.[change name];
 ```
 
-12.`react-native run-android`
+12. `react-native run-android`
