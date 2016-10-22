@@ -67,4 +67,4 @@ android {
 package com.[change name];
 ```
 
-12. `react-native run-android`
+12.`react-native run-android`
